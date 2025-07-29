@@ -9,30 +9,6 @@ Alternar entre modo claro e escuro
 
 Navegação entre tela inicial e menu com React Router
 
-📂 Estrutura do projeto
-graphql
-Copiar
-Editar
-totem-inovvati/
-├── public/
-│   ├── electron/
-│   │   └── main.js          # Código principal do Electron
-│   └── index.html           # HTML base do React
-├── src/
-│   ├── api/                 # Simulação de APIs para tema e menu
-│   │   └── index.ts
-│   ├── context/             # Contexto React para tema e menu
-│   │   └── ThemeContext.tsx
-│   ├── routes/              # Páginas da aplicação
-│   │   ├── Home.tsx         # Tela inicial com escolha de tema
-│   │   └── Menu.tsx         # Tela de listagem do menu e dark mode
-│   ├── types/               # Tipagens TypeScript
-│   │   └── index.ts
-│   ├── App.tsx              # Componente raiz com rotas
-│   └── index.tsx            # Entry point React
-├── package.json
-├── tsconfig.json
-└── README.md
 🚀 Como rodar o projeto localmente
 1. Clone o repositório
 bash
